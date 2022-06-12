@@ -1,3 +1,7 @@
+import CheckBox from "./checkBox.js"
 export default function Main(){
-    return <div className="main column"></div>
+    let array = ["Пылесосы", "Вытяжки", "Тостеры", "Телевизоры", "Стиральные машины", "Утюги"]
+    return <div className="main column">
+        <CheckBox array={array}/>
+    </div>
 }
